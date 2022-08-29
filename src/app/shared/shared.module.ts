@@ -5,6 +5,7 @@ import { RouterModule } from "@angular/router";
 //Components
 import { PokeHeaderComponent } from "./poke-header/poke-header.component";
 import { PokeListComponent } from "./poke-list/poke-list.component";
+import { PokeSearchComponent } from './poke-search/poke-search.component';
 
 @NgModule({
   imports: [
@@ -13,7 +14,8 @@ import { PokeListComponent } from "./poke-list/poke-list.component";
   ],
   declarations: [
     PokeHeaderComponent,
-    PokeListComponent
+    PokeListComponent,
+    PokeSearchComponent
   ],
   exports: [
     PokeHeaderComponent,
