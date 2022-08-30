@@ -8,10 +8,12 @@ import { RoutingModule } from "./routing.module";
 import { HomeComponent } from "./home/home.component";
 
 import { SharedModule } from "../shared/shared.module";
+import { DetailsComponent } from "./details/details.component";
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    DetailsComponent
   ],
   imports: [
     CommonModule,
